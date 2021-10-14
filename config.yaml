@@ -38,7 +38,7 @@ params:
     - name: LinkedIn
       icon: fa fa-linkedin
       weight: 3
-      url: https://linkedin/in/rtamizian
+      url: https://linkedin.com/in/rtamizian
 languages:
   en:
     languageName: ":uk:"
