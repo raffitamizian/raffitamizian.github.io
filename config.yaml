@@ -1,0 +1,52 @@
+baseURL: https://raffi.dev
+title: Raffi Tamizian
+languageCode: en
+defaultLanguageCode: en
+theme: hugo-coder
+
+paginate: 20
+pygmentsStyle: bw
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+enableEmoji: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+
+params:
+  author: Raffi Tamizian
+  info: Full Stack Devops Engineer
+  avatarUrl: images/avatar.png
+  description: Raffi Tamizian's personal website
+  keywords: 'blog,developer,personal'
+  since: 2015
+  dateFormat: Janurary 2, 2006
+  colorScheme: dark
+  maxSeeAlsoItems: 5
+  social:
+    - name: GitHub
+      icon: fa fa-github
+      weight: 1
+      url: https://github.com/raffitamizian
+    - name: Twitter
+      icon: fa fa-twitter
+      weight: 2
+      url: https://twitter.com/rtamizian
+    - name: LinkedIn
+      icon: fa fa-linkedin
+      weight: 3
+      url: https://linkedin/in/rtamizian
+languages:
+  en:
+    languageName: ":uk:"
+    menu:
+      main:
+        - name: About
+          weight: 1
+          url: about/
+        - Name: Contact me
+          weight: 2
+          url: contact/
